@@ -48,8 +48,7 @@ def draw_boxes(image, predictions):
 # Streamlit app
 st.title("Weapon Detection using YOLOv10")
 
-image = Image.open('/content/drive/MyDrive/n.png')
-st.image(image, caption='ML', use_column_width=True)
+
 
 uploaded_file = st.file_uploader("Upload an image of a weapon", type=["jpg", "jpeg", "png"])
 
